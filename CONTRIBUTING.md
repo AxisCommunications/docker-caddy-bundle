@@ -1,5 +1,4 @@
 <!-- omit in toc -->
-
 # Regarding contributions
 
 All types of contributions are encouraged and valued. See the
@@ -13,20 +12,17 @@ your contributions.
 > fine.
 
 <!-- omit in toc -->
-
 ## Table of contents
 
-- [Regarding contributions](#regarding-contributions)
-  - [Table of contents](#table-of-contents)
-  - [I have a question](#i-have-a-question)
-  - [I want to contribute](#i-want-to-contribute)
-    - [Reporting bugs](#reporting-bugs)
-      - [Before submitting a bug report](#before-submitting-a-bug-report)
-      - [How do I submit a good bug report?](#how-do-i-submit-a-good-bug-report)
-    - [Suggesting enhancements](#suggesting-enhancements)
-      - [Before Submitting an Enhancement](#before-submitting-an-enhancement)
-      - [How do I submit a good enhancement suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
-    - [Your first code contribution](#your-first-code-contribution)
+- [I have a question](#i-have-a-question)
+- [I want to contribute](#i-want-to-contribute)
+  - [Reporting bugs](#reporting-bugs)
+    - [Before submitting a bug report](#before-submitting-a-bug-report)
+    - [How do I submit a good bug report?](#how-do-i-submit-a-good-bug-report)
+  - [Suggesting enhancements](#suggesting-enhancements)
+    - [Before Submitting an Enhancement](#before-submitting-an-enhancement)
+    - [How do I submit a good enhancement suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
+  - [Your first code contribution](#your-first-code-contribution)
 
 ## I have a question
 
@@ -154,14 +150,14 @@ And finally when you are satisfied with your changes, open a new PR.
 
 <!-- markdownlint-disable MD034 -->
 
-[issues]: https://github.com/AxisCommunications/docker-caddy-bndle/issues
+[issues]: https://github.com/AxisCommunications/docker-caddy-bundle/issues
 [issues_new]:
-  https://github.com/AxisCommunications/docker-caddy-bndle/issues/new
+  https://github.com/AxisCommunications/docker-caddy-bundle/issues/new
 [issues_bugs]:
-  https://github.com/AxisCommunications/docker-caddy-bndle/issues?q=label%3Abug
+  https://github.com/AxisCommunications/docker-caddy-bundle/issues?q=label%3Abug
 [discussions]:
-  https://github.com/AxisCommunications/docker-caddy-bndle/discussions
+  https://github.com/AxisCommunications/docker-caddy-bundle/discussions
 [discussions_new]:
-  https://github.com/AxisCommunications/docker-caddy-bndle/discussions/new
+  https://github.com/AxisCommunications/docker-caddy-bundle/discussions/new
 
 <!-- markdownlint-enable MD034 -->
