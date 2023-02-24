@@ -8,19 +8,23 @@ on:
       - "Dockerfile*"
       - ".github/workflows/**"
   pull_request:
-    branches: 
+    branches:
       - "main"
     paths:
       - "Dockerfile*"
       - ".github/workflows/**"
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag axistools/caddy-bundle:$(date +%s)
+      - uses: actions/checkout@v3
+
+      - name: Extract the Caddy version numbers from the Dockerfile
+        run: bash .github/version_extractor.sh ./Dockerfile >> $GITHUB_ENV
+
+      - name: Build the Docker image
+        run: |
+          docker build . --file Dockerfile \
+            --tag "axistools/caddy-bundle:${{ env.CADDY_MAJOR }}.${{ env.CADDY_MINOR }}.${{ env.CADDY_PATCH }}"
