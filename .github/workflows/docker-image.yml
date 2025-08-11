@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Extract the Caddy version numbers from the Dockerfile
         run: bash .github/version_extractor.sh ./Dockerfile >> $GITHUB_ENV
