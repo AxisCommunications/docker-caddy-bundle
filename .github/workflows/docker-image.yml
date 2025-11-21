@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Extract the Caddy version numbers from the Dockerfile
         run: bash .github/version_extractor.sh ./Dockerfile >> $GITHUB_ENV
